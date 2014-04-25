@@ -89,6 +89,8 @@ static unsigned long id_function(void)
 
 #endif
 
+#endif
+
 static void internal_idevice_init(void)
 {
 #ifdef HAVE_OPENSSL
