@@ -1,0 +1,680 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C847BF151A75381B00271179 /* afc.c in Sources */ = {isa = PBXBuildFile; fileRef = C847BEC31A75381B00271179 /* afc.c */; };
+		C847BF171A75381B00271179 /* debugserver.c in Sources */ = {isa = PBXBuildFile; fileRef = C847BEC51A75381B00271179 /* debugserver.c */; };
+		C847BF191A75381B00271179 /* device_link_service.c in Sources */ = {isa = PBXBuildFile; fileRef = C847BEC71A75381B00271179 /* device_link_service.c */; };
+		C847BF1B1A75381B00271179 /* diagnostics_relay.c in Sources */ = {isa = PBXBuildFile; fileRef = C847BEC91A75381B00271179 /* diagnostics_relay.c */; };
+		C847BF1D1A75381B00271179 /* file_relay.c in Sources */ = {isa = PBXBuildFile; fileRef = C847BECB1A75381B00271179 /* file_relay.c */; };
+		C847BF1F1A75381B00271179 /* heartbeat.c in Sources */ = {isa = PBXBuildFile; fileRef = C847BECD1A75381B00271179 /* heartbeat.c */; };
+		C847BF211A75381B00271179 /* house_arrest.c in Sources */ = {isa = PBXBuildFile; fileRef = C847BECF1A75381B00271179 /* house_arrest.c */; };
+		C847BF231A75381B00271179 /* idevice.c in Sources */ = {isa = PBXBuildFile; fileRef = C847BED11A75381B00271179 /* idevice.c */; };
+		C847BF251A75381B00271179 /* installation_proxy.c in Sources */ = {isa = PBXBuildFile; fileRef = C847BED31A75381B00271179 /* installation_proxy.c */; };
+		C847BF271A75381B00271179 /* lockdown.c in Sources */ = {isa = PBXBuildFile; fileRef = C847BED51A75381B00271179 /* lockdown.c */; };
+		C847BF291A75381B00271179 /* misagent.c in Sources */ = {isa = PBXBuildFile; fileRef = C847BED81A75381B00271179 /* misagent.c */; };
+		C847BF2B1A75381B00271179 /* mobile_image_mounter.c in Sources */ = {isa = PBXBuildFile; fileRef = C847BEDA1A75381B00271179 /* mobile_image_mounter.c */; };
+		C847BF2D1A75381B00271179 /* mobilebackup.c in Sources */ = {isa = PBXBuildFile; fileRef = C847BEDC1A75381B00271179 /* mobilebackup.c */; };
+		C847BF2F1A75381B00271179 /* mobilebackup2.c in Sources */ = {isa = PBXBuildFile; fileRef = C847BEDE1A75381B00271179 /* mobilebackup2.c */; };
+		C847BF311A75381B00271179 /* mobilesync.c in Sources */ = {isa = PBXBuildFile; fileRef = C847BEE01A75381B00271179 /* mobilesync.c */; };
+		C847BF331A75381B00271179 /* notification_proxy.c in Sources */ = {isa = PBXBuildFile; fileRef = C847BEE21A75381B00271179 /* notification_proxy.c */; };
+		C847BF351A75381B00271179 /* property_list_service.c in Sources */ = {isa = PBXBuildFile; fileRef = C847BEE41A75381B00271179 /* property_list_service.c */; };
+		C847BF371A75381B00271179 /* restore.c in Sources */ = {isa = PBXBuildFile; fileRef = C847BEE61A75381B00271179 /* restore.c */; };
+		C847BF391A75381B00271179 /* sbservices.c in Sources */ = {isa = PBXBuildFile; fileRef = C847BEE81A75381B00271179 /* sbservices.c */; };
+		C847BF3B1A75381B00271179 /* screenshotr.c in Sources */ = {isa = PBXBuildFile; fileRef = C847BEEA1A75381B00271179 /* screenshotr.c */; };
+		C847BF3D1A75381B00271179 /* service.c in Sources */ = {isa = PBXBuildFile; fileRef = C847BEEC1A75381B00271179 /* service.c */; };
+		C847BF3F1A75381B00271179 /* syslog_relay.c in Sources */ = {isa = PBXBuildFile; fileRef = C847BEEE1A75381B00271179 /* syslog_relay.c */; };
+		C847BF411A75381B00271179 /* webinspector.c in Sources */ = {isa = PBXBuildFile; fileRef = C847BEF01A75381B00271179 /* webinspector.c */; };
+		C847BF7B1A753AB300271179 /* libplist.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C847BF761A75385D00271179 /* libplist.dylib */; };
+		C847BF7C1A753AB300271179 /* libusb-1.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C847BF661A75384D00271179 /* libusb-1.0.0.dylib */; };
+		C847BF7D1A753AB300271179 /* libusbmuxd.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C847BF5A1A75382800271179 /* libusbmuxd.dylib */; };
+		C847BF881A75405500271179 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C847BF861A75405500271179 /* libcrypto.a */; };
+		C847BF891A75405500271179 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C847BF871A75405500271179 /* libssl.a */; };
+		C847C0D41A7558C800271179 /* debug.c in Sources */ = {isa = PBXBuildFile; fileRef = C847C0C91A7558C800271179 /* debug.c */; };
+		C847C0D61A7558C800271179 /* socket.c in Sources */ = {isa = PBXBuildFile; fileRef = C847C0CC1A7558C800271179 /* socket.c */; };
+		C847C0D81A7558C800271179 /* thread.c in Sources */ = {isa = PBXBuildFile; fileRef = C847C0CE1A7558C800271179 /* thread.c */; };
+		C847C0DA1A7558C800271179 /* userpref.c in Sources */ = {isa = PBXBuildFile; fileRef = C847C0D01A7558C800271179 /* userpref.c */; };
+		C847C0DC1A7558C800271179 /* utils.c in Sources */ = {isa = PBXBuildFile; fileRef = C847C0D21A7558C800271179 /* utils.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C847BF591A75382800271179 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C847BF541A75382800271179 /* libusbmuxd.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C847BE791A751F2A00271179;
+			remoteInfo = libusbmuxd;
+		};
+		C847BF651A75384D00271179 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C847BF5B1A75384D00271179 /* libusb.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 008FBF311628B79300BC5BE2;
+			remoteInfo = libusb;
+		};
+		C847BF671A75384D00271179 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C847BF5B1A75384D00271179 /* libusb.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 008FBFBD1628B9FE00BC5BE2;
+			remoteInfo = xusb;
+		};
+		C847BF691A75384D00271179 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C847BF5B1A75384D00271179 /* libusb.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 008FBFF51628BB8B00BC5BE2;
+			remoteInfo = dpfp;
+		};
+		C847BF6B1A75384D00271179 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C847BF5B1A75384D00271179 /* libusb.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 008FC0051628BBDB00BC5BE2;
+			remoteInfo = dpfp_threaded;
+		};
+		C847BF6D1A75384D00271179 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C847BF5B1A75384D00271179 /* libusb.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 008FC0151628BC0300BC5BE2;
+			remoteInfo = fxload;
+		};
+		C847BF6F1A75384D00271179 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C847BF5B1A75384D00271179 /* libusb.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 008FC0261628BC6B00BC5BE2;
+			remoteInfo = listdevs;
+		};
+		C847BF751A75385D00271179 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C847BF711A75385D00271179 /* libplist.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C847BE141A7516B600271179;
+			remoteInfo = libplist;
+		};
+		C847BF801A753B4800271179 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C847BF711A75385D00271179 /* libplist.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = C847BE131A7516B600271179;
+			remoteInfo = libplist;
+		};
+		C847BF821A753B4800271179 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C847BF5B1A75384D00271179 /* libusb.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 008FBF301628B79300BC5BE2;
+			remoteInfo = libusb;
+		};
+		C847BF841A753B4800271179 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C847BF541A75382800271179 /* libusbmuxd.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = C847BE781A751F2A00271179;
+			remoteInfo = libusbmuxd;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C847BEA71A7537F400271179 /* libimobiledevice.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libimobiledevice.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		C847BEC31A75381B00271179 /* afc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = afc.c; sourceTree = "<group>"; };
+		C847BEC41A75381B00271179 /* afc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = afc.h; sourceTree = "<group>"; };
+		C847BEC51A75381B00271179 /* debugserver.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = debugserver.c; sourceTree = "<group>"; };
+		C847BEC61A75381B00271179 /* debugserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = debugserver.h; sourceTree = "<group>"; };
+		C847BEC71A75381B00271179 /* device_link_service.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = device_link_service.c; sourceTree = "<group>"; };
+		C847BEC81A75381B00271179 /* device_link_service.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = device_link_service.h; sourceTree = "<group>"; };
+		C847BEC91A75381B00271179 /* diagnostics_relay.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = diagnostics_relay.c; sourceTree = "<group>"; };
+		C847BECA1A75381B00271179 /* diagnostics_relay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = diagnostics_relay.h; sourceTree = "<group>"; };
+		C847BECB1A75381B00271179 /* file_relay.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = file_relay.c; sourceTree = "<group>"; };
+		C847BECC1A75381B00271179 /* file_relay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = file_relay.h; sourceTree = "<group>"; };
+		C847BECD1A75381B00271179 /* heartbeat.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = heartbeat.c; sourceTree = "<group>"; };
+		C847BECE1A75381B00271179 /* heartbeat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = heartbeat.h; sourceTree = "<group>"; };
+		C847BECF1A75381B00271179 /* house_arrest.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = house_arrest.c; sourceTree = "<group>"; };
+		C847BED01A75381B00271179 /* house_arrest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = house_arrest.h; sourceTree = "<group>"; };
+		C847BED11A75381B00271179 /* idevice.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = idevice.c; sourceTree = "<group>"; };
+		C847BED21A75381B00271179 /* idevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = idevice.h; sourceTree = "<group>"; };
+		C847BED31A75381B00271179 /* installation_proxy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = installation_proxy.c; sourceTree = "<group>"; };
+		C847BED41A75381B00271179 /* installation_proxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = installation_proxy.h; sourceTree = "<group>"; };
+		C847BED51A75381B00271179 /* lockdown.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lockdown.c; sourceTree = "<group>"; };
+		C847BED61A75381B00271179 /* lockdown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lockdown.h; sourceTree = "<group>"; };
+		C847BED71A75381B00271179 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		C847BED81A75381B00271179 /* misagent.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = misagent.c; sourceTree = "<group>"; };
+		C847BED91A75381B00271179 /* misagent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = misagent.h; sourceTree = "<group>"; };
+		C847BEDA1A75381B00271179 /* mobile_image_mounter.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mobile_image_mounter.c; sourceTree = "<group>"; };
+		C847BEDB1A75381B00271179 /* mobile_image_mounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mobile_image_mounter.h; sourceTree = "<group>"; };
+		C847BEDC1A75381B00271179 /* mobilebackup.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mobilebackup.c; sourceTree = "<group>"; };
+		C847BEDD1A75381B00271179 /* mobilebackup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mobilebackup.h; sourceTree = "<group>"; };
+		C847BEDE1A75381B00271179 /* mobilebackup2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mobilebackup2.c; sourceTree = "<group>"; };
+		C847BEDF1A75381B00271179 /* mobilebackup2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mobilebackup2.h; sourceTree = "<group>"; };
+		C847BEE01A75381B00271179 /* mobilesync.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mobilesync.c; sourceTree = "<group>"; };
+		C847BEE11A75381B00271179 /* mobilesync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mobilesync.h; sourceTree = "<group>"; };
+		C847BEE21A75381B00271179 /* notification_proxy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = notification_proxy.c; sourceTree = "<group>"; };
+		C847BEE31A75381B00271179 /* notification_proxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = notification_proxy.h; sourceTree = "<group>"; };
+		C847BEE41A75381B00271179 /* property_list_service.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = property_list_service.c; sourceTree = "<group>"; };
+		C847BEE51A75381B00271179 /* property_list_service.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = property_list_service.h; sourceTree = "<group>"; };
+		C847BEE61A75381B00271179 /* restore.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = restore.c; sourceTree = "<group>"; };
+		C847BEE71A75381B00271179 /* restore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = restore.h; sourceTree = "<group>"; };
+		C847BEE81A75381B00271179 /* sbservices.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sbservices.c; sourceTree = "<group>"; };
+		C847BEE91A75381B00271179 /* sbservices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sbservices.h; sourceTree = "<group>"; };
+		C847BEEA1A75381B00271179 /* screenshotr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = screenshotr.c; sourceTree = "<group>"; };
+		C847BEEB1A75381B00271179 /* screenshotr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = screenshotr.h; sourceTree = "<group>"; };
+		C847BEEC1A75381B00271179 /* service.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = service.c; sourceTree = "<group>"; };
+		C847BEED1A75381B00271179 /* service.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = service.h; sourceTree = "<group>"; };
+		C847BEEE1A75381B00271179 /* syslog_relay.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = syslog_relay.c; sourceTree = "<group>"; };
+		C847BEEF1A75381B00271179 /* syslog_relay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = syslog_relay.h; sourceTree = "<group>"; };
+		C847BEF01A75381B00271179 /* webinspector.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = webinspector.c; sourceTree = "<group>"; };
+		C847BEF11A75381B00271179 /* webinspector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = webinspector.h; sourceTree = "<group>"; };
+		C847BF541A75382800271179 /* libusbmuxd.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libusbmuxd.xcodeproj; path = ../../libusbmuxd/Xcode/libusbmuxd.xcodeproj; sourceTree = "<group>"; };
+		C847BF5B1A75384D00271179 /* libusb.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libusb.xcodeproj; path = ../../libusb/Xcode/libusb.xcodeproj; sourceTree = "<group>"; };
+		C847BF711A75385D00271179 /* libplist.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libplist.xcodeproj; path = ../../libplist/Xcode/libplist.xcodeproj; sourceTree = "<group>"; };
+		C847BF791A753A4700271179 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		C847BF861A75405500271179 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
+		C847BF871A75405500271179 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
+		C847C0C91A7558C800271179 /* debug.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = debug.c; sourceTree = "<group>"; };
+		C847C0CA1A7558C800271179 /* debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = debug.h; sourceTree = "<group>"; };
+		C847C0CB1A7558C800271179 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		C847C0CC1A7558C800271179 /* socket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = socket.c; sourceTree = "<group>"; };
+		C847C0CD1A7558C800271179 /* socket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = socket.h; sourceTree = "<group>"; };
+		C847C0CE1A7558C800271179 /* thread.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = thread.c; sourceTree = "<group>"; };
+		C847C0CF1A7558C800271179 /* thread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = thread.h; sourceTree = "<group>"; };
+		C847C0D01A7558C800271179 /* userpref.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = userpref.c; sourceTree = "<group>"; };
+		C847C0D11A7558C800271179 /* userpref.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = userpref.h; sourceTree = "<group>"; };
+		C847C0D21A7558C800271179 /* utils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = utils.c; sourceTree = "<group>"; };
+		C847C0D31A7558C800271179 /* utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utils.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C847BEA41A7537F400271179 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C847BF891A75405500271179 /* libssl.a in Frameworks */,
+				C847BF7B1A753AB300271179 /* libplist.dylib in Frameworks */,
+				C847BF7C1A753AB300271179 /* libusb-1.0.0.dylib in Frameworks */,
+				C847BF881A75405500271179 /* libcrypto.a in Frameworks */,
+				C847BF7D1A753AB300271179 /* libusbmuxd.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C847BE9E1A7537F400271179 = {
+			isa = PBXGroup;
+			children = (
+				C847BF861A75405500271179 /* libcrypto.a */,
+				C847BF871A75405500271179 /* libssl.a */,
+				C847BF791A753A4700271179 /* config.h */,
+				C847BF711A75385D00271179 /* libplist.xcodeproj */,
+				C847BF5B1A75384D00271179 /* libusb.xcodeproj */,
+				C847BF541A75382800271179 /* libusbmuxd.xcodeproj */,
+				C847C0C81A7558C800271179 /* common */,
+				C847BEC21A75381B00271179 /* src */,
+				C847BEA81A7537F400271179 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C847BEA81A7537F400271179 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C847BEA71A7537F400271179 /* libimobiledevice.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C847BEC21A75381B00271179 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				C847BEC31A75381B00271179 /* afc.c */,
+				C847BEC41A75381B00271179 /* afc.h */,
+				C847BEC51A75381B00271179 /* debugserver.c */,
+				C847BEC61A75381B00271179 /* debugserver.h */,
+				C847BEC71A75381B00271179 /* device_link_service.c */,
+				C847BEC81A75381B00271179 /* device_link_service.h */,
+				C847BEC91A75381B00271179 /* diagnostics_relay.c */,
+				C847BECA1A75381B00271179 /* diagnostics_relay.h */,
+				C847BECB1A75381B00271179 /* file_relay.c */,
+				C847BECC1A75381B00271179 /* file_relay.h */,
+				C847BECD1A75381B00271179 /* heartbeat.c */,
+				C847BECE1A75381B00271179 /* heartbeat.h */,
+				C847BECF1A75381B00271179 /* house_arrest.c */,
+				C847BED01A75381B00271179 /* house_arrest.h */,
+				C847BED11A75381B00271179 /* idevice.c */,
+				C847BED21A75381B00271179 /* idevice.h */,
+				C847BED31A75381B00271179 /* installation_proxy.c */,
+				C847BED41A75381B00271179 /* installation_proxy.h */,
+				C847BED51A75381B00271179 /* lockdown.c */,
+				C847BED61A75381B00271179 /* lockdown.h */,
+				C847BED71A75381B00271179 /* Makefile.am */,
+				C847BED81A75381B00271179 /* misagent.c */,
+				C847BED91A75381B00271179 /* misagent.h */,
+				C847BEDA1A75381B00271179 /* mobile_image_mounter.c */,
+				C847BEDB1A75381B00271179 /* mobile_image_mounter.h */,
+				C847BEDC1A75381B00271179 /* mobilebackup.c */,
+				C847BEDD1A75381B00271179 /* mobilebackup.h */,
+				C847BEDE1A75381B00271179 /* mobilebackup2.c */,
+				C847BEDF1A75381B00271179 /* mobilebackup2.h */,
+				C847BEE01A75381B00271179 /* mobilesync.c */,
+				C847BEE11A75381B00271179 /* mobilesync.h */,
+				C847BEE21A75381B00271179 /* notification_proxy.c */,
+				C847BEE31A75381B00271179 /* notification_proxy.h */,
+				C847BEE41A75381B00271179 /* property_list_service.c */,
+				C847BEE51A75381B00271179 /* property_list_service.h */,
+				C847BEE61A75381B00271179 /* restore.c */,
+				C847BEE71A75381B00271179 /* restore.h */,
+				C847BEE81A75381B00271179 /* sbservices.c */,
+				C847BEE91A75381B00271179 /* sbservices.h */,
+				C847BEEA1A75381B00271179 /* screenshotr.c */,
+				C847BEEB1A75381B00271179 /* screenshotr.h */,
+				C847BEEC1A75381B00271179 /* service.c */,
+				C847BEED1A75381B00271179 /* service.h */,
+				C847BEEE1A75381B00271179 /* syslog_relay.c */,
+				C847BEEF1A75381B00271179 /* syslog_relay.h */,
+				C847BEF01A75381B00271179 /* webinspector.c */,
+				C847BEF11A75381B00271179 /* webinspector.h */,
+			);
+			name = src;
+			path = ../src;
+			sourceTree = "<group>";
+		};
+		C847BF551A75382800271179 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C847BF5A1A75382800271179 /* libusbmuxd.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C847BF5C1A75384D00271179 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C847BF661A75384D00271179 /* libusb-1.0.0.dylib */,
+				C847BF681A75384D00271179 /* xusb */,
+				C847BF6A1A75384D00271179 /* dpfp */,
+				C847BF6C1A75384D00271179 /* dpfp_threaded */,
+				C847BF6E1A75384D00271179 /* fxload */,
+				C847BF701A75384D00271179 /* listdevs */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C847BF721A75385D00271179 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C847BF761A75385D00271179 /* libplist.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C847C0C81A7558C800271179 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				C847C0C91A7558C800271179 /* debug.c */,
+				C847C0CA1A7558C800271179 /* debug.h */,
+				C847C0CB1A7558C800271179 /* Makefile.am */,
+				C847C0CC1A7558C800271179 /* socket.c */,
+				C847C0CD1A7558C800271179 /* socket.h */,
+				C847C0CE1A7558C800271179 /* thread.c */,
+				C847C0CF1A7558C800271179 /* thread.h */,
+				C847C0D01A7558C800271179 /* userpref.c */,
+				C847C0D11A7558C800271179 /* userpref.h */,
+				C847C0D21A7558C800271179 /* utils.c */,
+				C847C0D31A7558C800271179 /* utils.h */,
+			);
+			name = common;
+			path = ../common;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C847BEA51A7537F400271179 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C847BEA61A7537F400271179 /* libimobiledevice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C847BEAB1A7537F400271179 /* Build configuration list for PBXNativeTarget "libimobiledevice" */;
+			buildPhases = (
+				C847BEA31A7537F400271179 /* Sources */,
+				C847BEA41A7537F400271179 /* Frameworks */,
+				C847BEA51A7537F400271179 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C847BF811A753B4800271179 /* PBXTargetDependency */,
+				C847BF831A753B4800271179 /* PBXTargetDependency */,
+				C847BF851A753B4800271179 /* PBXTargetDependency */,
+			);
+			name = libimobiledevice;
+			productName = libimobiledevice;
+			productReference = C847BEA71A7537F400271179 /* libimobiledevice.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C847BE9F1A7537F400271179 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = libimobiledevice;
+				TargetAttributes = {
+					C847BEA61A7537F400271179 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = C847BEA21A7537F400271179 /* Build configuration list for PBXProject "libimobiledevice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C847BE9E1A7537F400271179;
+			productRefGroup = C847BEA81A7537F400271179 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C847BF721A75385D00271179 /* Products */;
+					ProjectRef = C847BF711A75385D00271179 /* libplist.xcodeproj */;
+				},
+				{
+					ProductGroup = C847BF5C1A75384D00271179 /* Products */;
+					ProjectRef = C847BF5B1A75384D00271179 /* libusb.xcodeproj */;
+				},
+				{
+					ProductGroup = C847BF551A75382800271179 /* Products */;
+					ProjectRef = C847BF541A75382800271179 /* libusbmuxd.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				C847BEA61A7537F400271179 /* libimobiledevice */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		C847BF5A1A75382800271179 /* libusbmuxd.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libusbmuxd.dylib;
+			remoteRef = C847BF591A75382800271179 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C847BF661A75384D00271179 /* libusb-1.0.0.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = "libusb-1.0.0.dylib";
+			remoteRef = C847BF651A75384D00271179 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C847BF681A75384D00271179 /* xusb */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = xusb;
+			remoteRef = C847BF671A75384D00271179 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C847BF6A1A75384D00271179 /* dpfp */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = dpfp;
+			remoteRef = C847BF691A75384D00271179 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C847BF6C1A75384D00271179 /* dpfp_threaded */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = dpfp_threaded;
+			remoteRef = C847BF6B1A75384D00271179 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C847BF6E1A75384D00271179 /* fxload */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = fxload;
+			remoteRef = C847BF6D1A75384D00271179 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C847BF701A75384D00271179 /* listdevs */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = listdevs;
+			remoteRef = C847BF6F1A75384D00271179 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C847BF761A75385D00271179 /* libplist.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libplist.dylib;
+			remoteRef = C847BF751A75385D00271179 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C847BEA31A7537F400271179 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C847BF391A75381B00271179 /* sbservices.c in Sources */,
+				C847C0DC1A7558C800271179 /* utils.c in Sources */,
+				C847BF151A75381B00271179 /* afc.c in Sources */,
+				C847BF2B1A75381B00271179 /* mobile_image_mounter.c in Sources */,
+				C847BF271A75381B00271179 /* lockdown.c in Sources */,
+				C847BF3F1A75381B00271179 /* syslog_relay.c in Sources */,
+				C847BF2D1A75381B00271179 /* mobilebackup.c in Sources */,
+				C847BF1B1A75381B00271179 /* diagnostics_relay.c in Sources */,
+				C847BF3D1A75381B00271179 /* service.c in Sources */,
+				C847BF1F1A75381B00271179 /* heartbeat.c in Sources */,
+				C847BF2F1A75381B00271179 /* mobilebackup2.c in Sources */,
+				C847BF1D1A75381B00271179 /* file_relay.c in Sources */,
+				C847BF331A75381B00271179 /* notification_proxy.c in Sources */,
+				C847BF211A75381B00271179 /* house_arrest.c in Sources */,
+				C847BF411A75381B00271179 /* webinspector.c in Sources */,
+				C847BF251A75381B00271179 /* installation_proxy.c in Sources */,
+				C847C0D41A7558C800271179 /* debug.c in Sources */,
+				C847BF291A75381B00271179 /* misagent.c in Sources */,
+				C847BF231A75381B00271179 /* idevice.c in Sources */,
+				C847BF371A75381B00271179 /* restore.c in Sources */,
+				C847C0D81A7558C800271179 /* thread.c in Sources */,
+				C847C0D61A7558C800271179 /* socket.c in Sources */,
+				C847BF311A75381B00271179 /* mobilesync.c in Sources */,
+				C847BF351A75381B00271179 /* property_list_service.c in Sources */,
+				C847BF191A75381B00271179 /* device_link_service.c in Sources */,
+				C847C0DA1A7558C800271179 /* userpref.c in Sources */,
+				C847BF171A75381B00271179 /* debugserver.c in Sources */,
+				C847BF3B1A75381B00271179 /* screenshotr.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C847BF811A753B4800271179 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = libplist;
+			targetProxy = C847BF801A753B4800271179 /* PBXContainerItemProxy */;
+		};
+		C847BF831A753B4800271179 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = libusb;
+			targetProxy = C847BF821A753B4800271179 /* PBXContainerItemProxy */;
+		};
+		C847BF851A753B4800271179 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = libusbmuxd;
+			targetProxy = C847BF841A753B4800271179 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C847BEA91A7537F400271179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C847BEAA1A7537F400271179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C847BEAC1A7537F400271179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				HEADER_SEARCH_PATHS = (
+					./,
+					../,
+					../include/,
+					../../libusbmuxd/include/,
+					../../libplist/include/,
+					../../libusb/libusb/,
+				);
+				INSTALL_PATH = "@executable_path";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				OTHER_CFLAGS = "-DHAVE_CONFIG_H";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C847BEAD1A7537F400271179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				HEADER_SEARCH_PATHS = (
+					./,
+					../,
+					../include/,
+					../../libusbmuxd/include/,
+					../../libplist/include/,
+					../../libusb/libusb/,
+				);
+				INSTALL_PATH = "@executable_path";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				OTHER_CFLAGS = "-DHAVE_CONFIG_H";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SEPARATE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C847BEA21A7537F400271179 /* Build configuration list for PBXProject "libimobiledevice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C847BEA91A7537F400271179 /* Debug */,
+				C847BEAA1A7537F400271179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C847BEAB1A7537F400271179 /* Build configuration list for PBXNativeTarget "libimobiledevice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C847BEAC1A7537F400271179 /* Debug */,
+				C847BEAD1A7537F400271179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C847BE9F1A7537F400271179 /* Project object */;
+}
