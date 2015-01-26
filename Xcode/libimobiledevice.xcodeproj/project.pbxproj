@@ -64,6 +64,9 @@
 		C8EB84771A75D9CA0022C2CD /* libplist.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C847BF761A75385D00271179 /* libplist.dylib */; };
 		C8EB84781A75D9CA0022C2CD /* libimobiledevice.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C847BEA71A7537F400271179 /* libimobiledevice.dylib */; };
 		C8EB847E1A75D9F60022C2CD /* idevicediagnostics.c in Sources */ = {isa = PBXBuildFile; fileRef = C847C0EA1A755D8700271179 /* idevicediagnostics.c */; };
+		C8EB85071A75EC0E0022C2CD /* libplist.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C847BF761A75385D00271179 /* libplist.dylib */; };
+		C8EB85081A75EC0E0022C2CD /* libimobiledevice.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C847BEA71A7537F400271179 /* libimobiledevice.dylib */; };
+		C8EB85141A75EC2A0022C2CD /* ideviceimagemounter.c in Sources */ = {isa = PBXBuildFile; fileRef = C847C0EC1A755D8700271179 /* ideviceimagemounter.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -256,6 +259,20 @@
 			remoteGlobalIDString = C847BEA61A7537F400271179;
 			remoteInfo = libimobiledevice;
 		};
+		C8EB85011A75EC0E0022C2CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C847BF711A75385D00271179 /* libplist.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = C847BE131A7516B600271179;
+			remoteInfo = libplist;
+		};
+		C8EB85031A75EC0E0022C2CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C847BE9F1A7537F400271179 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C847BEA61A7537F400271179;
+			remoteInfo = libimobiledevice;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -323,6 +340,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		C8EB84791A75D9CA0022C2CD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		C8EB85091A75EC0E0022C2CD /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -426,6 +452,7 @@
 		C8EB845D1A75D7870022C2CD /* idevicecrashreport */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = idevicecrashreport; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8EB846D1A75D7D80022C2CD /* idevicesyslog */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = idevicesyslog; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8EB847D1A75D9CA0022C2CD /* idevicediagnotics */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = idevicediagnotics; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8EB850D1A75EC0E0022C2CD /* ideviceimagemounter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ideviceimagemounter; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -513,6 +540,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C8EB85061A75EC0E0022C2CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8EB85071A75EC0E0022C2CD /* libplist.dylib in Frameworks */,
+				C8EB85081A75EC0E0022C2CD /* libimobiledevice.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -545,6 +581,7 @@
 				C8EB845D1A75D7870022C2CD /* idevicecrashreport */,
 				C8EB846D1A75D7D80022C2CD /* idevicesyslog */,
 				C8EB847D1A75D9CA0022C2CD /* idevicediagnotics */,
+				C8EB850D1A75EC0E0022C2CD /* ideviceimagemounter */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -871,6 +908,25 @@
 			productReference = C8EB847D1A75D9CA0022C2CD /* idevicediagnotics */;
 			productType = "com.apple.product-type.tool";
 		};
+		C8EB84FF1A75EC0E0022C2CD /* ideviceimagemounter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8EB850A1A75EC0E0022C2CD /* Build configuration list for PBXNativeTarget "ideviceimagemounter" */;
+			buildPhases = (
+				C8EB85041A75EC0E0022C2CD /* Sources */,
+				C8EB85061A75EC0E0022C2CD /* Frameworks */,
+				C8EB85091A75EC0E0022C2CD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8EB85001A75EC0E0022C2CD /* PBXTargetDependency */,
+				C8EB85021A75EC0E0022C2CD /* PBXTargetDependency */,
+			);
+			name = ideviceimagemounter;
+			productName = ideviceinfo;
+			productReference = C8EB850D1A75EC0E0022C2CD /* ideviceimagemounter */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -919,6 +975,7 @@
 				C8EB844F1A75D7870022C2CD /* idevicecrashreport */,
 				C8EB846F1A75D9CA0022C2CD /* idevicediagnostics */,
 				C847C10F1A755DF300271179 /* ideviceinfo */,
+				C8EB84FF1A75EC0E0022C2CD /* ideviceimagemounter */,
 				C8EB840F1A75D5A80022C2CD /* idevicename */,
 				C8EB843F1A75D7030022C2CD /* idevicepair */,
 				C8EB84291A75D66D0022C2CD /* idevicescreenshot */,
@@ -1086,6 +1143,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C8EB85041A75EC0E0022C2CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8EB85141A75EC2A0022C2CD /* ideviceimagemounter.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -1183,6 +1248,16 @@
 			isa = PBXTargetDependency;
 			target = C847BEA61A7537F400271179 /* libimobiledevice */;
 			targetProxy = C8EB84731A75D9CA0022C2CD /* PBXContainerItemProxy */;
+		};
+		C8EB85001A75EC0E0022C2CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = libplist;
+			targetProxy = C8EB85011A75EC0E0022C2CD /* PBXContainerItemProxy */;
+		};
+		C8EB85021A75EC0E0022C2CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C847BEA61A7537F400271179 /* libimobiledevice */;
+			targetProxy = C8EB85031A75EC0E0022C2CD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1329,6 +1404,7 @@
 					../include/,
 					../../libplist/include/,
 				);
+				INSTALL_PATH = "@executable_path";
 				OTHER_CFLAGS = "-DHAVE_CONFIG_H";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -1345,6 +1421,7 @@
 					../include/,
 					../../libplist/include/,
 				);
+				INSTALL_PATH = "@executable_path";
 				OTHER_CFLAGS = "-DHAVE_CONFIG_H";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -1365,6 +1442,7 @@
 					../include/,
 					../../libplist/include/,
 				);
+				INSTALL_PATH = "@executable_path";
 				OTHER_CFLAGS = "-DHAVE_CONFIG_H";
 				PRODUCT_NAME = idevice_id;
 			};
@@ -1381,6 +1459,7 @@
 					../include/,
 					../../libplist/include/,
 				);
+				INSTALL_PATH = "@executable_path";
 				OTHER_CFLAGS = "-DHAVE_CONFIG_H";
 				PRODUCT_NAME = idevice_id;
 			};
@@ -1401,6 +1480,7 @@
 					../include/,
 					../../libplist/include/,
 				);
+				INSTALL_PATH = "@executable_path";
 				OTHER_CFLAGS = "-DHAVE_CONFIG_H";
 				PRODUCT_NAME = idevicename;
 			};
@@ -1417,6 +1497,7 @@
 					../include/,
 					../../libplist/include/,
 				);
+				INSTALL_PATH = "@executable_path";
 				OTHER_CFLAGS = "-DHAVE_CONFIG_H";
 				PRODUCT_NAME = idevicename;
 			};
@@ -1437,6 +1518,7 @@
 					../include/,
 					../../libplist/include/,
 				);
+				INSTALL_PATH = "@executable_path";
 				OTHER_CFLAGS = "-DHAVE_CONFIG_H";
 				PRODUCT_NAME = idevicescreenshot;
 			};
@@ -1453,6 +1535,7 @@
 					../include/,
 					../../libplist/include/,
 				);
+				INSTALL_PATH = "@executable_path";
 				OTHER_CFLAGS = "-DHAVE_CONFIG_H";
 				PRODUCT_NAME = idevicescreenshot;
 			};
@@ -1473,6 +1556,7 @@
 					../include/,
 					../../libplist/include/,
 				);
+				INSTALL_PATH = "@executable_path";
 				OTHER_CFLAGS = "-DHAVE_CONFIG_H";
 				PRODUCT_NAME = idevicepair;
 			};
@@ -1489,6 +1573,7 @@
 					../include/,
 					../../libplist/include/,
 				);
+				INSTALL_PATH = "@executable_path";
 				OTHER_CFLAGS = "-DHAVE_CONFIG_H";
 				PRODUCT_NAME = idevicepair;
 			};
@@ -1509,6 +1594,7 @@
 					../include/,
 					../../libplist/include/,
 				);
+				INSTALL_PATH = "@executable_path";
 				OTHER_CFLAGS = "-DHAVE_CONFIG_H";
 				PRODUCT_NAME = idevicecrashreport;
 			};
@@ -1525,6 +1611,7 @@
 					../include/,
 					../../libplist/include/,
 				);
+				INSTALL_PATH = "@executable_path";
 				OTHER_CFLAGS = "-DHAVE_CONFIG_H";
 				PRODUCT_NAME = idevicecrashreport;
 			};
@@ -1545,6 +1632,7 @@
 					../include/,
 					../../libplist/include/,
 				);
+				INSTALL_PATH = "@executable_path";
 				OTHER_CFLAGS = (
 					"-DHAVE_CONFIG_H",
 					"-D_SYS_SYSLOG_H_",
@@ -1564,6 +1652,7 @@
 					../include/,
 					../../libplist/include/,
 				);
+				INSTALL_PATH = "@executable_path";
 				OTHER_CFLAGS = (
 					"-DHAVE_CONFIG_H",
 					"-D_SYS_SYSLOG_H_",
@@ -1587,6 +1676,7 @@
 					../include/,
 					../../libplist/include/,
 				);
+				INSTALL_PATH = "@executable_path";
 				OTHER_CFLAGS = "-DHAVE_CONFIG_H";
 				PRODUCT_NAME = idevicediagnotics;
 			};
@@ -1603,8 +1693,53 @@
 					../include/,
 					../../libplist/include/,
 				);
+				INSTALL_PATH = "@executable_path";
 				OTHER_CFLAGS = "-DHAVE_CONFIG_H";
 				PRODUCT_NAME = idevicediagnotics;
+			};
+			name = Release;
+		};
+		C8EB850B1A75EC0E0022C2CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					./,
+					../,
+					../include/,
+					../../libplist/include/,
+				);
+				INSTALL_PATH = "@executable_path";
+				OTHER_CFLAGS = (
+					"-DHAVE_CONFIG_H",
+					"-D_SYS_SYSLOG_H_",
+				);
+				PRODUCT_NAME = ideviceimagemounter;
+			};
+			name = Debug;
+		};
+		C8EB850C1A75EC0E0022C2CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				HEADER_SEARCH_PATHS = (
+					./,
+					../,
+					../include/,
+					../../libplist/include/,
+				);
+				INSTALL_PATH = "@executable_path";
+				OTHER_CFLAGS = (
+					"-DHAVE_CONFIG_H",
+					"-D_SYS_SYSLOG_H_",
+				);
+				PRODUCT_NAME = ideviceimagemounter;
 			};
 			name = Release;
 		};
@@ -1697,6 +1832,15 @@
 			buildConfigurations = (
 				C8EB847B1A75D9CA0022C2CD /* Debug */,
 				C8EB847C1A75D9CA0022C2CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8EB850A1A75EC0E0022C2CD /* Build configuration list for PBXNativeTarget "ideviceimagemounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8EB850B1A75EC0E0022C2CD /* Debug */,
+				C8EB850C1A75EC0E0022C2CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
