@@ -30,9 +30,9 @@
 		C847BF3D1A75381B00271179 /* service.c in Sources */ = {isa = PBXBuildFile; fileRef = C847BEEC1A75381B00271179 /* service.c */; };
 		C847BF3F1A75381B00271179 /* syslog_relay.c in Sources */ = {isa = PBXBuildFile; fileRef = C847BEEE1A75381B00271179 /* syslog_relay.c */; };
 		C847BF411A75381B00271179 /* webinspector.c in Sources */ = {isa = PBXBuildFile; fileRef = C847BEF01A75381B00271179 /* webinspector.c */; };
-		C847BF7B1A753AB300271179 /* libplist.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C847BF761A75385D00271179 /* libplist.dylib */; };
+		C847BF7B1A753AB300271179 /* libplist.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C847BF761A75385D00271179 /* libplist.a */; };
 		C847BF7C1A753AB300271179 /* libusb-1.0.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C847BF661A75384D00271179 /* libusb-1.0.0.a */; };
-		C847BF7D1A753AB300271179 /* libusbmuxd.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C847BF5A1A75382800271179 /* libusbmuxd.dylib */; };
+		C847BF7D1A753AB300271179 /* libusbmuxd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C847BF5A1A75382800271179 /* libusbmuxd.a */; };
 		C847BF881A75405500271179 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C847BF861A75405500271179 /* libcrypto.a */; };
 		C847BF891A75405500271179 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C847BF871A75405500271179 /* libssl.a */; };
 		C847C0D41A7558C800271179 /* debug.c in Sources */ = {isa = PBXBuildFile; fileRef = C847C0C91A7558C800271179 /* debug.c */; };
@@ -42,31 +42,40 @@
 		C847C0DC1A7558C800271179 /* utils.c in Sources */ = {isa = PBXBuildFile; fileRef = C847C0D21A7558C800271179 /* utils.c */; };
 		C847C1171A755E1100271179 /* ideviceinfo.c in Sources */ = {isa = PBXBuildFile; fileRef = C847C0ED1A755D8700271179 /* ideviceinfo.c */; };
 		C847C1181A755E1600271179 /* libimobiledevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C847BEA71A7537F400271179 /* libimobiledevice.a */; };
-		C847C11D1A755F2D00271179 /* libplist.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C847BF761A75385D00271179 /* libplist.dylib */; };
-		C8EB84031A75D4630022C2CD /* libplist.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C847BF761A75385D00271179 /* libplist.dylib */; };
+		C847C11D1A755F2D00271179 /* libplist.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C847BF761A75385D00271179 /* libplist.a */; };
+		C8EB84031A75D4630022C2CD /* libplist.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C847BF761A75385D00271179 /* libplist.a */; };
 		C8EB84041A75D4630022C2CD /* libimobiledevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C847BEA71A7537F400271179 /* libimobiledevice.a */; };
 		C8EB840A1A75D49C0022C2CD /* idevice_id.c in Sources */ = {isa = PBXBuildFile; fileRef = C847C0E31A755D8700271179 /* idevice_id.c */; };
-		C8EB84171A75D5A80022C2CD /* libplist.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C847BF761A75385D00271179 /* libplist.dylib */; };
+		C8EB84171A75D5A80022C2CD /* libplist.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C847BF761A75385D00271179 /* libplist.a */; };
 		C8EB84181A75D5A80022C2CD /* libimobiledevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C847BEA71A7537F400271179 /* libimobiledevice.a */; };
 		C8EB84241A75D5F50022C2CD /* idevicename.c in Sources */ = {isa = PBXBuildFile; fileRef = C847C0EE1A755D8700271179 /* idevicename.c */; };
-		C8EB84311A75D66D0022C2CD /* libplist.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C847BF761A75385D00271179 /* libplist.dylib */; };
+		C8EB84311A75D66D0022C2CD /* libplist.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C847BF761A75385D00271179 /* libplist.a */; };
 		C8EB84321A75D66D0022C2CD /* libimobiledevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C847BEA71A7537F400271179 /* libimobiledevice.a */; };
 		C8EB843E1A75D69A0022C2CD /* idevicescreenshot.c in Sources */ = {isa = PBXBuildFile; fileRef = C847C0F21A755D8700271179 /* idevicescreenshot.c */; };
-		C8EB84471A75D7030022C2CD /* libplist.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C847BF761A75385D00271179 /* libplist.dylib */; };
+		C8EB84471A75D7030022C2CD /* libplist.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C847BF761A75385D00271179 /* libplist.a */; };
 		C8EB84481A75D7030022C2CD /* libimobiledevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C847BEA71A7537F400271179 /* libimobiledevice.a */; };
 		C8EB844E1A75D7150022C2CD /* idevicepair.c in Sources */ = {isa = PBXBuildFile; fileRef = C847C0F01A755D8700271179 /* idevicepair.c */; };
-		C8EB84571A75D7870022C2CD /* libplist.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C847BF761A75385D00271179 /* libplist.dylib */; };
+		C8EB84571A75D7870022C2CD /* libplist.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C847BF761A75385D00271179 /* libplist.a */; };
 		C8EB84581A75D7870022C2CD /* libimobiledevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C847BEA71A7537F400271179 /* libimobiledevice.a */; };
 		C8EB845E1A75D7A90022C2CD /* idevicecrashreport.c in Sources */ = {isa = PBXBuildFile; fileRef = C847C0E61A755D8700271179 /* idevicecrashreport.c */; };
-		C8EB84671A75D7D80022C2CD /* libplist.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C847BF761A75385D00271179 /* libplist.dylib */; };
+		C8EB84671A75D7D80022C2CD /* libplist.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C847BF761A75385D00271179 /* libplist.a */; };
 		C8EB84681A75D7D80022C2CD /* libimobiledevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C847BEA71A7537F400271179 /* libimobiledevice.a */; };
 		C8EB846E1A75D7F50022C2CD /* idevicesyslog.c in Sources */ = {isa = PBXBuildFile; fileRef = C847C0F31A755D8700271179 /* idevicesyslog.c */; };
-		C8EB84771A75D9CA0022C2CD /* libplist.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C847BF761A75385D00271179 /* libplist.dylib */; };
+		C8EB84771A75D9CA0022C2CD /* libplist.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C847BF761A75385D00271179 /* libplist.a */; };
 		C8EB84781A75D9CA0022C2CD /* libimobiledevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C847BEA71A7537F400271179 /* libimobiledevice.a */; };
 		C8EB847E1A75D9F60022C2CD /* idevicediagnostics.c in Sources */ = {isa = PBXBuildFile; fileRef = C847C0EA1A755D8700271179 /* idevicediagnostics.c */; };
-		C8EB85071A75EC0E0022C2CD /* libplist.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C847BF761A75385D00271179 /* libplist.dylib */; };
+		C8EB85071A75EC0E0022C2CD /* libplist.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C847BF761A75385D00271179 /* libplist.a */; };
 		C8EB85081A75EC0E0022C2CD /* libimobiledevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C847BEA71A7537F400271179 /* libimobiledevice.a */; };
 		C8EB85141A75EC2A0022C2CD /* ideviceimagemounter.c in Sources */ = {isa = PBXBuildFile; fileRef = C847C0EC1A755D8700271179 /* ideviceimagemounter.c */; };
+		C8ED82491A7A201600EAE0CE /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C8ED82481A7A201600EAE0CE /* libxml2.dylib */; };
+		C8ED82521A7A203100EAE0CE /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C8ED82481A7A201600EAE0CE /* libxml2.dylib */; };
+		C8ED82531A7A204500EAE0CE /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C8ED82481A7A201600EAE0CE /* libxml2.dylib */; };
+		C8ED82541A7A204B00EAE0CE /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C8ED82481A7A201600EAE0CE /* libxml2.dylib */; };
+		C8ED82551A7A205100EAE0CE /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C8ED82481A7A201600EAE0CE /* libxml2.dylib */; };
+		C8ED82561A7A205800EAE0CE /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C8ED82481A7A201600EAE0CE /* libxml2.dylib */; };
+		C8ED82571A7A206000EAE0CE /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C8ED82481A7A201600EAE0CE /* libxml2.dylib */; };
+		C8ED82581A7A206500EAE0CE /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C8ED82481A7A201600EAE0CE /* libxml2.dylib */; };
+		C8ED82591A7A206D00EAE0CE /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C8ED82481A7A201600EAE0CE /* libxml2.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -452,6 +461,8 @@
 		C8EB846D1A75D7D80022C2CD /* idevicesyslog */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = idevicesyslog; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8EB847D1A75D9CA0022C2CD /* idevicediagnotics */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = idevicediagnotics; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8EB850D1A75EC0E0022C2CD /* ideviceimagemounter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ideviceimagemounter; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8ED82481A7A201600EAE0CE /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		C8ED82501A7A201B00EAE0CE /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -460,10 +471,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C847BF891A75405500271179 /* libssl.a in Frameworks */,
-				C847BF7B1A753AB300271179 /* libplist.dylib in Frameworks */,
+				C847BF7B1A753AB300271179 /* libplist.a in Frameworks */,
 				C847BF7C1A753AB300271179 /* libusb-1.0.0.a in Frameworks */,
 				C847BF881A75405500271179 /* libcrypto.a in Frameworks */,
-				C847BF7D1A753AB300271179 /* libusbmuxd.dylib in Frameworks */,
+				C847BF7D1A753AB300271179 /* libusbmuxd.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,7 +482,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C847C11D1A755F2D00271179 /* libplist.dylib in Frameworks */,
+				C8ED82521A7A203100EAE0CE /* libxml2.dylib in Frameworks */,
+				C847C11D1A755F2D00271179 /* libplist.a in Frameworks */,
 				C847C1181A755E1600271179 /* libimobiledevice.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -480,7 +492,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8EB84031A75D4630022C2CD /* libplist.dylib in Frameworks */,
+				C8ED82571A7A206000EAE0CE /* libxml2.dylib in Frameworks */,
+				C8EB84031A75D4630022C2CD /* libplist.a in Frameworks */,
 				C8EB84041A75D4630022C2CD /* libimobiledevice.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -489,7 +502,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8EB84171A75D5A80022C2CD /* libplist.dylib in Frameworks */,
+				C8ED82531A7A204500EAE0CE /* libxml2.dylib in Frameworks */,
+				C8EB84171A75D5A80022C2CD /* libplist.a in Frameworks */,
 				C8EB84181A75D5A80022C2CD /* libimobiledevice.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,7 +512,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8EB84311A75D66D0022C2CD /* libplist.dylib in Frameworks */,
+				C8ED82551A7A205100EAE0CE /* libxml2.dylib in Frameworks */,
+				C8EB84311A75D66D0022C2CD /* libplist.a in Frameworks */,
 				C8EB84321A75D66D0022C2CD /* libimobiledevice.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,7 +522,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8EB84471A75D7030022C2CD /* libplist.dylib in Frameworks */,
+				C8ED82541A7A204B00EAE0CE /* libxml2.dylib in Frameworks */,
+				C8EB84471A75D7030022C2CD /* libplist.a in Frameworks */,
 				C8EB84481A75D7030022C2CD /* libimobiledevice.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -516,7 +532,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8EB84571A75D7870022C2CD /* libplist.dylib in Frameworks */,
+				C8ED82581A7A206500EAE0CE /* libxml2.dylib in Frameworks */,
+				C8EB84571A75D7870022C2CD /* libplist.a in Frameworks */,
 				C8EB84581A75D7870022C2CD /* libimobiledevice.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -525,7 +542,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8EB84671A75D7D80022C2CD /* libplist.dylib in Frameworks */,
+				C8ED82561A7A205800EAE0CE /* libxml2.dylib in Frameworks */,
+				C8EB84671A75D7D80022C2CD /* libplist.a in Frameworks */,
 				C8EB84681A75D7D80022C2CD /* libimobiledevice.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -534,7 +552,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8EB84771A75D9CA0022C2CD /* libplist.dylib in Frameworks */,
+				C8ED82591A7A206D00EAE0CE /* libxml2.dylib in Frameworks */,
+				C8EB84771A75D9CA0022C2CD /* libplist.a in Frameworks */,
 				C8EB84781A75D9CA0022C2CD /* libimobiledevice.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -543,7 +562,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8EB85071A75EC0E0022C2CD /* libplist.dylib in Frameworks */,
+				C8ED82491A7A201600EAE0CE /* libxml2.dylib in Frameworks */,
+				C8EB85071A75EC0E0022C2CD /* libplist.a in Frameworks */,
 				C8EB85081A75EC0E0022C2CD /* libimobiledevice.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -554,6 +574,8 @@
 		C847BE9E1A7537F400271179 = {
 			isa = PBXGroup;
 			children = (
+				C8ED82501A7A201B00EAE0CE /* libiconv.dylib */,
+				C8ED82481A7A201600EAE0CE /* libxml2.dylib */,
 				C847BF861A75405500271179 /* libcrypto.a */,
 				C847BF871A75405500271179 /* libssl.a */,
 				C847BF791A753A4700271179 /* config.h */,
@@ -642,7 +664,7 @@
 		C847BF551A75382800271179 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C847BF5A1A75382800271179 /* libusbmuxd.dylib */,
+				C847BF5A1A75382800271179 /* libusbmuxd.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -663,7 +685,7 @@
 		C847BF721A75385D00271179 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C847BF761A75385D00271179 /* libplist.dylib */,
+				C847BF761A75385D00271179 /* libplist.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -975,10 +997,9 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		C847BF5A1A75382800271179 /* libusbmuxd.dylib */ = {
+		C847BF5A1A75382800271179 /* libusbmuxd.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.dylib";
-			name = libusbmuxd.dylib;
 			path = libusbmuxd.a;
 			remoteRef = C847BF591A75382800271179 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
@@ -1025,10 +1046,9 @@
 			remoteRef = C847BF6F1A75384D00271179 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		C847BF761A75385D00271179 /* libplist.dylib */ = {
+		C847BF761A75385D00271179 /* libplist.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.dylib";
-			name = libplist.dylib;
 			path = libplist.a;
 			remoteRef = C847BF751A75385D00271179 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
