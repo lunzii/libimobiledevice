@@ -571,21 +571,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C847BE9E1A7537F400271179 = {
+		C804F67D1A8C8B7C00A74780 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C847BF711A75385D00271179 /* libplist.xcodeproj */,
+				C847BF5B1A75384D00271179 /* libusb.xcodeproj */,
+				C847BF541A75382800271179 /* libusbmuxd.xcodeproj */,
 				C8ED82501A7A201B00EAE0CE /* libiconv.dylib */,
 				C8ED82481A7A201600EAE0CE /* libxml2.dylib */,
 				C847BF861A75405500271179 /* libcrypto.a */,
 				C847BF871A75405500271179 /* libssl.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C847BE9E1A7537F400271179 = {
+			isa = PBXGroup;
+			children = (
 				C847BF791A753A4700271179 /* config.h */,
-				C847BF711A75385D00271179 /* libplist.xcodeproj */,
-				C847BF5B1A75384D00271179 /* libusb.xcodeproj */,
-				C847BF541A75382800271179 /* libusbmuxd.xcodeproj */,
 				C847C0C81A7558C800271179 /* common */,
+				C804F67D1A8C8B7C00A74780 /* Frameworks */,
+				C847BEA81A7537F400271179 /* Products */,
 				C847BEC21A75381B00271179 /* src */,
 				C847C0E21A755D8700271179 /* tools */,
-				C847BEA81A7537F400271179 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1307,10 +1315,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = macosx10.9;
 			};
 			name = Debug;
 		};
@@ -1342,9 +1350,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = macosx;
+				SDKROOT = macosx10.9;
 			};
 			name = Release;
 		};
@@ -1365,14 +1373,16 @@
 					../../libplist/include/,
 					../../libusb/libusb/,
 				);
-				INSTALL_PATH = "@executable_path/../Frameworks";
+				INSTALL_PATH = "@executable_path/";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OTHER_CFLAGS = "-DHAVE_CONFIG_H";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.9;
 			};
 			name = Debug;
 		};
@@ -1393,14 +1403,16 @@
 					../../libplist/include/,
 					../../libusb/libusb/,
 				);
-				INSTALL_PATH = "@executable_path/../Frameworks";
+				INSTALL_PATH = "@executable_path/";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OTHER_CFLAGS = "-DHAVE_CONFIG_H";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.9;
 				SEPARATE_STRIP = NO;
 			};
 			name = Release;
