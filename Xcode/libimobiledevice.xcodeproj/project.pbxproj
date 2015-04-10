@@ -1380,7 +1380,12 @@
 				);
 				MACH_O_TYPE = staticlib;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				OTHER_CFLAGS = "-DHAVE_CONFIG_H";
+				OTHER_CFLAGS = (
+					"-DHAVE_OPENSSL",
+					"-DHAVE_STPCPY",
+					"-DHAVE_VASPRINTF",
+					"-DHAVE_ASPRINTF",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx10.9;
 			};
@@ -1410,7 +1415,12 @@
 				);
 				MACH_O_TYPE = staticlib;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				OTHER_CFLAGS = "-DHAVE_CONFIG_H";
+				OTHER_CFLAGS = (
+					"-DHAVE_OPENSSL",
+					"-DHAVE_STPCPY",
+					"-DHAVE_VASPRINTF",
+					"-DHAVE_ASPRINTF",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx10.9;
 				SEPARATE_STRIP = NO;
