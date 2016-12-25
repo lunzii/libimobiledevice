@@ -1,0 +1,58 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F12AAB142D225A23A20B5B62D5F1B3376BB3038D+++6622CEC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F12AAB142D225A23A20B5B62D5F1B3376BB3038D+++6622CEC" : 0,
+    "97DEBE5E75882055095471C30476BE04A8F57925+++3B0CA93" : 9223372036854775807,
+    "97DEBE5E75882055095471C30476BE04A8F57925+++F40939E" : 0,
+    "A0A70348AF94C209E8F52F4CE8B75FC1FF60793F+++77211D6" : 9223372036854775807,
+    "A0A70348AF94C209E8F52F4CE8B75FC1FF60793F+++3315BB8" : 0,
+    "F12AAB142D225A23A20B5B62D5F1B3376BB3038D+++8C5A14C" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "85138F32-0EDD-40FD-8DB8-AA82E0FD8D46",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F12AAB142D225A23A20B5B62D5F1B3376BB3038D+++6622CEC" : "libplist\/",
+    "97DEBE5E75882055095471C30476BE04A8F57925+++3B0CA93" : "libusbmuxd\/",
+    "97DEBE5E75882055095471C30476BE04A8F57925+++F40939E" : "..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/libusbmuxd",
+    "A0A70348AF94C209E8F52F4CE8B75FC1FF60793F+++77211D6" : "libusb\/",
+    "A0A70348AF94C209E8F52F4CE8B75FC1FF60793F+++3315BB8" : "..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/libusb",
+    "F12AAB142D225A23A20B5B62D5F1B3376BB3038D+++8C5A14C" : "libimobiledevice\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "libimobiledevice",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Xcode\/libimobiledevice.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/olunx\/libusbmuxd.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "97DEBE5E75882055095471C30476BE04A8F57925+++3B0CA93"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/lunzii\/libusbmuxd.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "97DEBE5E75882055095471C30476BE04A8F57925+++F40939E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/lunzii\/libusb.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A0A70348AF94C209E8F52F4CE8B75FC1FF60793F+++3315BB8"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/olunx\/libusb.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A0A70348AF94C209E8F52F4CE8B75FC1FF60793F+++77211D6"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/lunzii\/libplist.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F12AAB142D225A23A20B5B62D5F1B3376BB3038D+++6622CEC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/lunzii\/libplist.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F12AAB142D225A23A20B5B62D5F1B3376BB3038D+++8C5A14C"
+    }
+  ]
+}
