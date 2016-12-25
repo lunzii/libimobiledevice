@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C8440DBD1E0F6BFC00EB0EF4 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C8440DBC1E0F6BFC00EB0EF4 /* libxml2.tbd */; };
+		C8440DBF1E0F6C0600EB0EF4 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C8440DBE1E0F6C0600EB0EF4 /* libiconv.tbd */; };
+		C8440DC01E0F6ED700EB0EF4 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C8440DBE1E0F6C0600EB0EF4 /* libiconv.tbd */; };
+		C8440DC11E0F6EDE00EB0EF4 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C8440DBC1E0F6BFC00EB0EF4 /* libxml2.tbd */; };
+		C8440DC21E0F757E00EB0EF4 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C8440DBE1E0F6C0600EB0EF4 /* libiconv.tbd */; };
+		C8440DC31E0F758200EB0EF4 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C8440DBC1E0F6BFC00EB0EF4 /* libxml2.tbd */; };
+		C8440DC41E0F75A400EB0EF4 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C8440DBE1E0F6C0600EB0EF4 /* libiconv.tbd */; };
+		C8440DC51E0F75AA00EB0EF4 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C8440DBC1E0F6BFC00EB0EF4 /* libxml2.tbd */; };
+		C8440DC61E0F75B900EB0EF4 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C8440DBE1E0F6C0600EB0EF4 /* libiconv.tbd */; };
+		C8440DC71E0F75C000EB0EF4 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C8440DBC1E0F6BFC00EB0EF4 /* libxml2.tbd */; };
+		C8440DC81E0F75CA00EB0EF4 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C8440DBE1E0F6C0600EB0EF4 /* libiconv.tbd */; };
+		C8440DC91E0F75CE00EB0EF4 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C8440DBC1E0F6BFC00EB0EF4 /* libxml2.tbd */; };
+		C8440DCA1E0F75D500EB0EF4 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C8440DBE1E0F6C0600EB0EF4 /* libiconv.tbd */; };
+		C8440DCB1E0F75D900EB0EF4 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C8440DBC1E0F6BFC00EB0EF4 /* libxml2.tbd */; };
+		C8440DCC1E0F75DF00EB0EF4 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C8440DBE1E0F6C0600EB0EF4 /* libiconv.tbd */; };
+		C8440DCD1E0F75E300EB0EF4 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C8440DBC1E0F6BFC00EB0EF4 /* libxml2.tbd */; };
+		C8440DCE1E0F75E800EB0EF4 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C8440DBE1E0F6C0600EB0EF4 /* libiconv.tbd */; };
+		C8440DCF1E0F75EC00EB0EF4 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C8440DBC1E0F6BFC00EB0EF4 /* libxml2.tbd */; };
 		C847BF151A75381B00271179 /* afc.c in Sources */ = {isa = PBXBuildFile; fileRef = C847BEC31A75381B00271179 /* afc.c */; };
 		C847BF171A75381B00271179 /* debugserver.c in Sources */ = {isa = PBXBuildFile; fileRef = C847BEC51A75381B00271179 /* debugserver.c */; };
 		C847BF191A75381B00271179 /* device_link_service.c in Sources */ = {isa = PBXBuildFile; fileRef = C847BEC71A75381B00271179 /* device_link_service.c */; };
@@ -67,15 +85,6 @@
 		C8EB85071A75EC0E0022C2CD /* libplist.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C847BF761A75385D00271179 /* libplist.a */; };
 		C8EB85081A75EC0E0022C2CD /* libimobiledevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C847BEA71A7537F400271179 /* libimobiledevice.a */; };
 		C8EB85141A75EC2A0022C2CD /* ideviceimagemounter.c in Sources */ = {isa = PBXBuildFile; fileRef = C847C0EC1A755D8700271179 /* ideviceimagemounter.c */; };
-		C8ED82491A7A201600EAE0CE /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C8ED82481A7A201600EAE0CE /* libxml2.dylib */; };
-		C8ED82521A7A203100EAE0CE /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C8ED82481A7A201600EAE0CE /* libxml2.dylib */; };
-		C8ED82531A7A204500EAE0CE /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C8ED82481A7A201600EAE0CE /* libxml2.dylib */; };
-		C8ED82541A7A204B00EAE0CE /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C8ED82481A7A201600EAE0CE /* libxml2.dylib */; };
-		C8ED82551A7A205100EAE0CE /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C8ED82481A7A201600EAE0CE /* libxml2.dylib */; };
-		C8ED82561A7A205800EAE0CE /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C8ED82481A7A201600EAE0CE /* libxml2.dylib */; };
-		C8ED82571A7A206000EAE0CE /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C8ED82481A7A201600EAE0CE /* libxml2.dylib */; };
-		C8ED82581A7A206500EAE0CE /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C8ED82481A7A201600EAE0CE /* libxml2.dylib */; };
-		C8ED82591A7A206D00EAE0CE /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C8ED82481A7A201600EAE0CE /* libxml2.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -369,6 +378,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C8440DBC1E0F6BFC00EB0EF4 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		C8440DBE1E0F6C0600EB0EF4 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
 		C847BEA71A7537F400271179 /* libimobiledevice.a */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libimobiledevice.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C847BEC31A75381B00271179 /* afc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = afc.c; sourceTree = "<group>"; };
 		C847BEC41A75381B00271179 /* afc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = afc.h; sourceTree = "<group>"; };
@@ -461,8 +472,6 @@
 		C8EB846D1A75D7D80022C2CD /* idevicesyslog */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = idevicesyslog; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8EB847D1A75D9CA0022C2CD /* idevicediagnotics */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = idevicediagnotics; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8EB850D1A75EC0E0022C2CD /* ideviceimagemounter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ideviceimagemounter; sourceTree = BUILT_PRODUCTS_DIR; };
-		C8ED82481A7A201600EAE0CE /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
-		C8ED82501A7A201B00EAE0CE /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -482,7 +491,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8ED82521A7A203100EAE0CE /* libxml2.dylib in Frameworks */,
+				C8440DC31E0F758200EB0EF4 /* libxml2.tbd in Frameworks */,
+				C8440DC21E0F757E00EB0EF4 /* libiconv.tbd in Frameworks */,
 				C847C11D1A755F2D00271179 /* libplist.a in Frameworks */,
 				C847C1181A755E1600271179 /* libimobiledevice.a in Frameworks */,
 			);
@@ -492,7 +502,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8ED82571A7A206000EAE0CE /* libxml2.dylib in Frameworks */,
+				C8440DBF1E0F6C0600EB0EF4 /* libiconv.tbd in Frameworks */,
+				C8440DBD1E0F6BFC00EB0EF4 /* libxml2.tbd in Frameworks */,
 				C8EB84031A75D4630022C2CD /* libplist.a in Frameworks */,
 				C8EB84041A75D4630022C2CD /* libimobiledevice.a in Frameworks */,
 			);
@@ -502,7 +513,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8ED82531A7A204500EAE0CE /* libxml2.dylib in Frameworks */,
+				C8440DC11E0F6EDE00EB0EF4 /* libxml2.tbd in Frameworks */,
+				C8440DC01E0F6ED700EB0EF4 /* libiconv.tbd in Frameworks */,
 				C8EB84171A75D5A80022C2CD /* libplist.a in Frameworks */,
 				C8EB84181A75D5A80022C2CD /* libimobiledevice.a in Frameworks */,
 			);
@@ -512,7 +524,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8ED82551A7A205100EAE0CE /* libxml2.dylib in Frameworks */,
+				C8440DC51E0F75AA00EB0EF4 /* libxml2.tbd in Frameworks */,
+				C8440DC41E0F75A400EB0EF4 /* libiconv.tbd in Frameworks */,
 				C8EB84311A75D66D0022C2CD /* libplist.a in Frameworks */,
 				C8EB84321A75D66D0022C2CD /* libimobiledevice.a in Frameworks */,
 			);
@@ -522,7 +535,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8ED82541A7A204B00EAE0CE /* libxml2.dylib in Frameworks */,
+				C8440DC91E0F75CE00EB0EF4 /* libxml2.tbd in Frameworks */,
+				C8440DC81E0F75CA00EB0EF4 /* libiconv.tbd in Frameworks */,
 				C8EB84471A75D7030022C2CD /* libplist.a in Frameworks */,
 				C8EB84481A75D7030022C2CD /* libimobiledevice.a in Frameworks */,
 			);
@@ -532,7 +546,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8ED82581A7A206500EAE0CE /* libxml2.dylib in Frameworks */,
+				C8440DCF1E0F75EC00EB0EF4 /* libxml2.tbd in Frameworks */,
+				C8440DCE1E0F75E800EB0EF4 /* libiconv.tbd in Frameworks */,
 				C8EB84571A75D7870022C2CD /* libplist.a in Frameworks */,
 				C8EB84581A75D7870022C2CD /* libimobiledevice.a in Frameworks */,
 			);
@@ -542,7 +557,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8ED82561A7A205800EAE0CE /* libxml2.dylib in Frameworks */,
+				C8440DC71E0F75C000EB0EF4 /* libxml2.tbd in Frameworks */,
+				C8440DC61E0F75B900EB0EF4 /* libiconv.tbd in Frameworks */,
 				C8EB84671A75D7D80022C2CD /* libplist.a in Frameworks */,
 				C8EB84681A75D7D80022C2CD /* libimobiledevice.a in Frameworks */,
 			);
@@ -552,7 +568,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8ED82591A7A206D00EAE0CE /* libxml2.dylib in Frameworks */,
+				C8440DCD1E0F75E300EB0EF4 /* libxml2.tbd in Frameworks */,
+				C8440DCC1E0F75DF00EB0EF4 /* libiconv.tbd in Frameworks */,
 				C8EB84771A75D9CA0022C2CD /* libplist.a in Frameworks */,
 				C8EB84781A75D9CA0022C2CD /* libimobiledevice.a in Frameworks */,
 			);
@@ -562,7 +579,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8ED82491A7A201600EAE0CE /* libxml2.dylib in Frameworks */,
+				C8440DCB1E0F75D900EB0EF4 /* libxml2.tbd in Frameworks */,
+				C8440DCA1E0F75D500EB0EF4 /* libiconv.tbd in Frameworks */,
 				C8EB85071A75EC0E0022C2CD /* libplist.a in Frameworks */,
 				C8EB85081A75EC0E0022C2CD /* libimobiledevice.a in Frameworks */,
 			);
@@ -574,11 +592,11 @@
 		C804F67D1A8C8B7C00A74780 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C8440DBE1E0F6C0600EB0EF4 /* libiconv.tbd */,
+				C8440DBC1E0F6BFC00EB0EF4 /* libxml2.tbd */,
 				C847BF711A75385D00271179 /* libplist.xcodeproj */,
 				C847BF5B1A75384D00271179 /* libusb.xcodeproj */,
 				C847BF541A75382800271179 /* libusbmuxd.xcodeproj */,
-				C8ED82501A7A201B00EAE0CE /* libiconv.dylib */,
-				C8ED82481A7A201600EAE0CE /* libxml2.dylib */,
 				C847BF861A75405500271179 /* libcrypto.a */,
 				C847BF871A75405500271179 /* libssl.a */,
 			);
@@ -1318,7 +1336,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx10.9;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -1352,7 +1370,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = macosx10.9;
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -1366,7 +1384,7 @@
 				EXECUTABLE_PREFIX = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				HEADER_SEARCH_PATHS = (
-					./,
+					.,
 					../,
 					../include/,
 					../../libusbmuxd/include/,
@@ -1387,7 +1405,7 @@
 					"-DHAVE_ASPRINTF",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx10.9;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -1401,7 +1419,7 @@
 				EXECUTABLE_PREFIX = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				HEADER_SEARCH_PATHS = (
-					./,
+					.,
 					../,
 					../include/,
 					../../libusbmuxd/include/,
@@ -1422,7 +1440,7 @@
 					"-DHAVE_ASPRINTF",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx10.9;
+				SDKROOT = macosx;
 				SEPARATE_STRIP = NO;
 			};
 			name = Release;
