@@ -60,3 +60,4 @@ tools/idevicecrashreport
 cython/.libs/*
 cython/*.c
 doxygen.cfg
+.DS_Store
