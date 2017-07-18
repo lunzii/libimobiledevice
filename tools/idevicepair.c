@@ -75,7 +75,6 @@ static void print_usage(int argc, char **argv)
 	printf("  -u, --udid UDID  target specific device by its 40-digit device UDID\n");
 	printf("  -h, --help       prints usage information\n");
 	printf("\n");
-	printf("Homepage: <" PACKAGE_URL ">\n");
 }
 
 static void parse_opts(int argc, char **argv)

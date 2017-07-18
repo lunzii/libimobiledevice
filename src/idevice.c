@@ -89,11 +89,6 @@ static unsigned long id_function(void)
 
 #endif
 
-#endif
-
-#endif
-
-#endif
 
 static void internal_idevice_init(void)
 {
@@ -125,7 +120,9 @@ static void internal_idevice_deinit(void)
 #if OPENSSL_VERSION_NUMBER < 0x10100000L
 	int i;
 	if (mutex_buf) {
-		CRYPTO_set_id_callback(NULL);
+#ifndef __ANDROID__
+	CRYPTO_set_id_callback(id_function);
+#endif
 		CRYPTO_set_locking_callback(NULL);
 		for (i = 0; i < CRYPTO_num_locks(); i++)
 			mutex_destroy(&mutex_buf[i]);

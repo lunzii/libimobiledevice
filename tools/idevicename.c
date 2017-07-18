@@ -41,7 +41,6 @@ static void print_usage(void)
 	printf("  -u, --udid UDID\tuse UDID to target a specific device\n");
 	printf("  -h, --help\t\tprint usage information\n");
 	printf("\n");
-	printf("Homepage: <" PACKAGE_URL ">\n");
 }
 
 int main(int argc, char** argv)

@@ -68,7 +68,6 @@ static void print_usage(int argc, char **argv)
 	printf("  -x, --xml        print XML output when using the 'dump' command\n");
 	printf("  -h, --help       prints usage information\n");
 	printf("\n");
-	printf("Homepage: <" PACKAGE_URL ">\n");
 }
 
 enum {

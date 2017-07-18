@@ -102,7 +102,6 @@ static void print_usage(int argc, char **argv)
 		printf("  %s\n", domains[i++]);
 	}
 	printf("\n");
-	printf("Homepage: <" PACKAGE_URL ">\n");
 }
 
 int main(int argc, char *argv[])
